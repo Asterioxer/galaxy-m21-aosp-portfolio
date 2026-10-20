@@ -20,7 +20,7 @@ The original notes describe the device as “fully stable,” “0% brick rate,�
 | Flash utility | Odin3 v3.14.4 on Windows | User-provided |
 | Outcome | Installer success reported | No logs, checksums, or test matrix supplied |
 
-Compatibility is device- and build-specific. Do not assume that an image for a related Samsung model is safe for SM-M215F.
+Compatibility is device- and build-specific. Do not assume that an image for a related Samsung model is safe for SM-M215F. See [Device Compatibility Notes](docs/DEVICE_COMPATIBILITY.md) for a project-specific caution: a guide for a different Exynos 9611 ROM project explicitly advises against TWRP for its own builds. That warning cannot automatically be generalized to Evolution X, but it demonstrates why the exact ROM maintainer instructions must be verified.
 
 ## Reported workflow
 
@@ -47,6 +47,7 @@ The original notes mention Odin, vbmeta, TWRP, data formatting, and ROM ZIP inst
 - [Post-mortem](docs/POSTMORTEM.md) — claim-by-claim review and technical analysis.
 - [Validation](docs/VALIDATION.md) — post-install test matrix and evidence checklist.
 - [Safety and rollback](docs/SAFETY_AND_ROLLBACK.md) — security trade-offs and recovery planning.
+- [Device compatibility notes](docs/DEVICE_COMPATIBILITY.md) — why recovery and feature support are ROM-specific.
 - [References](docs/REFERENCES.md) — authoritative sources and provenance checklist.
 - [Changelog](docs/CHANGELOG.md) — documentation revisions.
 
