@@ -1,0 +1,12 @@
+# Device logs and private artifacts
+*.log
+*.dmp
+*.img
+*.tar
+*.tar.md5
+*.zip
+*.key
+*.pem
+.env
+.DS_Store
+Thumbs.db
